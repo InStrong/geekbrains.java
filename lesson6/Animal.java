@@ -8,10 +8,8 @@ public  abstract class Animal {
 
 
 
-    protected   void run(double distance)
-    {
-        System.out.println("run: " + (distance <= 500));
-    };
+    protected  abstract void run(double distance);
+
 
     protected void swim(double distance) {
         System.out.println("swim: " + (distance <= 10));
